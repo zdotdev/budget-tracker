@@ -55,7 +55,7 @@ CREATE TABLE budget_items (
     category VARCHAR(50) NOT NULL,
     note TEXT,
     amount DECIMAL(10, 2) NOT NULL,
-    date VARCHAR(250) NOT NULL
+    date DATE
 );
 ```
 
